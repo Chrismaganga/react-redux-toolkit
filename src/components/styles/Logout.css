@@ -1,0 +1,40 @@
+/* Logout.css */
+.logout-button {
+    background-color: #e74c3c;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+  }
+  
+  .logout-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .logout-button:focus {
+    outline: none;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 600px) {
+    .logout-button {
+      font-size: 1rem;
+      padding: 8px 16px;
+      width: 180px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .logout-button {
+      font-size: 0.9rem;
+      padding: 6px 12px;
+      width: 160px;
+    }
+  }
+  
